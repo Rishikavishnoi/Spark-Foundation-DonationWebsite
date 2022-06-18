@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SPARKS DONATION</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">  
+</head>
+  <body>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm  navbar-dark  bg-dark ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">SPARKS DONATION</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2   mb-lg-0 py-2 px-5">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              </ul>
+           </div>
+        </div>
+      </nav>
+      <!--banner-->
+      <div style=" background-image: url('banner.jpg');" class="banner">
+       <div style="width: 30%; height: 30% ;"class="container box ">
+        <div  class="text-center text">
+
+       <h3 >Contact Us For More Details</h3>
+       
+        <button type="button" class="btn btn-danger">Contact Us</button>
+    </div>
+       </div>
+    </div>
+
+    <!--form-->
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row justify-content-around">
+
+      <!--Grid column-->
+      <div class="col-md-10 my-4  mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="name" class="">Name</label>
+                          <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="email" class="">Email</label>
+                          <input type="text" id="email" name="email" placeholder="Enter your Email" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+             
+
+              <!--Grid row-->
+              <br>
+              
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                        
+                        <label for="message">Your message</label>
+                          <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea"></textarea>
+                         
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+         <br >
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+     
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

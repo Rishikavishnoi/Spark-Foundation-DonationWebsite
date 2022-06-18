@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+.navbar-brand{
+    font-weight: bold !important;
+}
+.navbar{
+    box-shadow: 0px 2px 5px 1px white !important;
+}
+.nav-link:hover{
+    color: rgb(236, 190, 36) !important;
+}
+.nav-link{
+    font-weight: bold !important;
+}
+.banner{
+    background-image: url('contact-us-banner.jpg');
+    background-size: cover;
+    width:100vw;
+    background-repeat: no-repeat;
+    height:60vh;
+}

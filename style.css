@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+.navbar-brand{
+    font-weight: bold !important;
+}
+.navbar{
+    box-shadow: 0px 2px 5px 1px white !important;
+}
+.nav-link:hover{
+    color: rgb(236, 190, 36) !important;
+}
+.nav-link{
+    font-weight: bold !important;
+}
+.banner{
+    background-image: url('banner.jpg');
+    background-size: cover;
+    width:98.7vw;
+    height:100vh;
+}
+.box{
+    position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   
+   background-color: white;
+   opacity: 0.75;
+   width:40%;
+   height:40%;
+   padding:20px;
+   box-shadow: 1px 2px 3px 2px #575555 !important;
+  border-radius: 20px;
+}
+
+.text{
+    color:rgb(225, 170, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.coltext{
+    color: black;
+}
